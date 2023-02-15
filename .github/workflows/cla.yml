@@ -5,6 +5,9 @@ on:
   pull_request_target:
     types: [opened,closed,synchronize]
 
+permissions:
+  contents: write
+
 jobs:
   CLAAssistant:
     runs-on: ubuntu-latest
