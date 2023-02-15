@@ -21,5 +21,5 @@ jobs:
         with:
           path-to-signatures: '.github/cla.json'
           path-to-document: 'https://github.com/toeverything/blocksuite/blob/master/.github/CLA.md'
-          branch: 'master'
+          branch: 'main'
           allowlist: bot*
